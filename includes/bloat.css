@@ -1,0 +1,13 @@
+/* TODO: add descriptions */
+#save-to-pocket-button,
+#fxa-toolbar-menu-button,
+#tracking-protection-icon-container,
+#identity-box,
+.urlbar-go-button,
+#star-button-box,
+#translations-button,
+#reader-mode-button,
+#full-page-translations-panel
+{
+  display: none !important;
+}

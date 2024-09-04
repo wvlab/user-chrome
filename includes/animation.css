@@ -1,0 +1,6 @@
+#TabsToolbar,
+#nav-bar {
+  transition: margin-top 0.25s !important;
+}
+
+/* TODO: add hover animation for tab icons */

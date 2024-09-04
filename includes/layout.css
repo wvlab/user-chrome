@@ -1,0 +1,58 @@
+/* oneline */
+@media screen and (min-width: 800px) {
+  #nav-bar {
+    margin-top: calc(var(--m-tabs-height) * -1) !important;
+    margin-right: calc(100vw - (800px * var(--m-navbar-width) / 100)) !important;
+    vertical-align: center !important;
+    height: var(--m-tabs-height) !important;
+  }
+
+  #TabsToolbar {
+    margin-left: calc(800px * var(--m-navbar-width) / 100) !important;
+    min-height: var(--m-tabs-height) !important;
+  }
+
+  #TabsToolbar-customization-target {
+    height: var(--m-tabs-height) !important;
+  }
+
+  #urlbar-container {
+    min-width: 0px !important;
+    flex: auto !important;
+  }
+}
+
+tab {
+  /* IT DOESN'T WORK */
+  /* max-width: var(--m-tab-width) !important; */
+}
+
+/* unneeded space */
+.titlebar-spacer,
+toolbarspring {
+  display: none !important;
+}
+
+/* navbar buttons order */
+#nav-bar {
+  direction: rtl !important;
+}
+
+#urlbar-container {
+  order: -2 !important;
+  direction: ltr !important;
+}
+
+#forward-button {
+  order: -1 !important;
+}
+
+.urlbarView-row {
+  display: none !important;
+}
+.urlbarView-row:nth-child(n + 1):nth-child(-n + 2) {
+  display: flex !important;
+}
+#urlbar-anon-search-settings {
+  margin-inline-start: 0px !important;
+}
