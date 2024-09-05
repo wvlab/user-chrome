@@ -2,7 +2,9 @@
 @media screen and (min-width: 800px) {
   #nav-bar {
     margin-top: calc(var(--m-tabs-height) * -1) !important;
-    margin-right: calc(100vw - (800px * var(--m-navbar-width) / 100)) !important;
+    margin-right: calc(
+      100vw - (800px * var(--m-navbar-width) / 100)
+    ) !important;
     vertical-align: center !important;
     height: var(--m-tabs-height) !important;
   }
@@ -38,7 +40,8 @@ toolbarspring {
   direction: rtl !important;
 }
 
-#urlbar-container {
+#urlbar-container,
+#customizationui-widget-panel {
   order: -2 !important;
   direction: ltr !important;
 }
