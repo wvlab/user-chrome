@@ -7,7 +7,10 @@
 #star-button-box,
 #translations-button,
 #reader-mode-button,
-#full-page-translations-panel
+#full-page-translations-panel,
+#appMenu-fxa-status2,
+#appMenu-fxa-separator,
+.titlebar-buttonbox
 {
   display: none !important;
 }
