@@ -1,0 +1,38 @@
+:root {
+  color-scheme: dark;
+  --m-background-color: #010101;
+  --m-active-background-color: #303030;
+  --m-foreground-color: #d9d9d9;
+  --m-primary-color: #d290a6;
+  --m-secondary-color: #c36c89;
+
+  -moz-dialogtext: var(--m-foreground-color) !important;
+  --link-color: var(--m-secondary-color) !important;
+  --toolbarbutton-icon-fill: var(--m-primary-color) !important;
+  --toolbar-field-focus-background-color: var(--m-background-color) !important;
+  --toolbox-non-lwt-bgcolor: var(--m-background-color) !important;
+  --toolbox-non-lwt-bgcolor-inactive: var(--m-background-color) !important;
+  --toolbar-color: var(--m-foreground-color) !important;
+  --toolbar-bgcolor: var(--m-background-color) !important;
+  --tab-selected-bgcolor: var(--m-active-background-color) !important;
+  --button-primary-bgcolor: var(--m-secondary-color) !important;
+  --arrowpanel-background: var(--m-background-color) !important;
+  --arrowpanel-dimmed: var(--m-active-background-color) !important;
+  --arrowpanel-color: var(--m-foreground-color) !important;
+  --menu-background-color: var(--m-background-color) !important;
+  --menu-color: var(--m-foreground-color) !important;
+}
+
+menupopup,
+panel {
+  --panel-background: var(--m-background-color) !important;
+  --panel-color: var(--m-foreground-color) !important;
+}
+
+#navigator-toolbox {
+  border-bottom: 0.1px solid var(--m-active-background-color) !important;
+}
+
+#urlbar-input {
+  caret-color: var(--m-foreground-color) !important;
+}
