@@ -1,13 +1,13 @@
 :root {
   --m-navbar-width: 56; /* in percentage */
   --m-toolbar-buttons-padding: 2px;
-  /* FIXME: when it's <36px tab name is lower than baseline */
-  --m-tabs-height: 36px;
+  --m-tabs-height: 32px;
   /* --m-tab-width: 175px; */
-  /* set it to 0 when tabs height is to low for tab to be fully displayed */
   --tab-block-margin: 0px !important; /* 4px is firefox default */
   --tab-border-radius: 0px !important; /* 4px is firefox default */
   --toolbarbutton-border-radius: 4px !important;
+
   --toolbar-start-end-padding: var(--m-toolbar-buttons-padding) !important;
   --toolbar-outer-padding: var(--m-toolbar-buttons-padding) !important;
+  --tab-min-height: var(--m-tabs-height) !important;
 }
