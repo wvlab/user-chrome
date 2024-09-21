@@ -10,7 +10,8 @@
 #full-page-translations-panel,
 #appMenu-fxa-status2,
 #appMenu-fxa-separator,
-.titlebar-buttonbox
+.titlebar-buttonbox,
+#firefox-view-button
 {
   display: none !important;
 }
