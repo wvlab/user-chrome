@@ -3,4 +3,12 @@
   transition: margin-top 0.25s !important;
 }
 
-/* TODO: add hover animation for tab icons */
+.tab-icon-image {
+  opacity: 0;
+  transition: opacity var(--ma-tab-icon-duration) ease;
+}
+
+[selected="true"] .tab-icon-image,
+.tab-stack:hover .tab-icon-image {
+    opacity: 1;
+}
