@@ -11,7 +11,8 @@
 #appMenu-fxa-status2,
 #appMenu-fxa-separator,
 .titlebar-buttonbox,
-#firefox-view-button
+#firefox-view-button,
+#picture-in-picture-button
 {
   display: none !important;
 }
