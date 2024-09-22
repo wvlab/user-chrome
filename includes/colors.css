@@ -9,6 +9,7 @@
   -moz-dialogtext: var(--m-foreground-color) !important;
   --link-color: var(--m-secondary-color) !important;
   --toolbarbutton-icon-fill: var(--m-primary-color) !important;
+  --toolbarbutton-icon-fill-attention: var(--m-secondary-color) !important;
   --toolbar-field-focus-background-color: var(--m-background-color) !important;
   --toolbox-non-lwt-bgcolor: var(--m-background-color) !important;
   --toolbox-non-lwt-bgcolor-inactive: var(--m-background-color) !important;
