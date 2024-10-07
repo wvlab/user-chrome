@@ -1,11 +1,12 @@
 :root {
   --m-navbar-width: 56; /* in percentage */
   --m-toolbar-buttons-padding: 2px;
+  --m-tabs-padding: 0px;
   --m-tabs-height: 32px;
   /* --m-tab-width: 175px; */
   --tab-block-margin: 0px !important; /* 4px is firefox default */
   --tab-border-radius: 0px !important; /* 4px is firefox default */
-  --toolbarbutton-border-radius: 4px !important;
+  --toolbarbutton-border-radius: 0px !important; /* 4px is firefox default */
 
   --toolbar-start-end-padding: var(--m-toolbar-buttons-padding) !important;
   --toolbar-outer-padding: var(--m-toolbar-buttons-padding) !important;

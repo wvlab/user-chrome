@@ -27,6 +27,7 @@
 tab {
   /* IT DOESN'T WORK */
   /* max-width: var(--m-tab-width) !important; */
+  padding: 0 var(--m-tabs-padding) !important;
 }
 
 /* unneeded space */
