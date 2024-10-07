@@ -14,10 +14,6 @@
     min-height: var(--m-tabs-height) !important;
   }
 
-  #TabsToolbar-customization-target {
-    height: var(--m-tabs-height) !important;
-  }
-
   #urlbar-container {
     min-width: 0px !important;
     flex: auto !important;
@@ -26,13 +22,16 @@
   tabs#tabbrowser-tabs {
     padding: 0 !important;
   }
-
 }
 
 tab {
   /* IT DOESN'T WORK */
   /* max-width: var(--m-tab-width) !important; */
   padding: 0 var(--m-tabs-padding) !important;
+}
+
+#TabsToolbar-customization-target {
+  height: var(--m-tabs-height) !important;
 }
 
 /* unneeded space */
