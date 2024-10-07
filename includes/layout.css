@@ -22,6 +22,11 @@
     min-width: 0px !important;
     flex: auto !important;
   }
+
+  tabs#tabbrowser-tabs {
+    padding: 0 !important;
+  }
+
 }
 
 tab {
