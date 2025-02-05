@@ -3,12 +3,12 @@
   transition: margin-top 0.25s !important;
 }
 
-.tab-icon-image {
+.tabbrowser-tab:not([pinned]) .tab-icon-image {
   opacity: 0;
   transition: opacity var(--ma-tab-icon-duration) ease;
 }
 
-[selected="true"] .tab-icon-image,
+.tabbrowser-tab[selected="true"] .tab-icon-image,
 .tab-stack:hover .tab-icon-image {
     opacity: 1;
 }
