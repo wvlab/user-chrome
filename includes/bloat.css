@@ -2,7 +2,11 @@
 #save-to-pocket-button,
 #fxa-toolbar-menu-button,
 #tracking-protection-icon-container,
-#identity-box,
+/* lock icon in urlbar */
+#identity-icon-box,
+/* permissions in urlbar, can be still accessed via `#identity-permission-box > image`, 
+ * can't be fully turned off, because it will interfere with popups */
+#identity-permission-box > box,
 .urlbar-go-button,
 #star-button-box,
 #translations-button,
